@@ -9,7 +9,7 @@
 
  Usage:
         The typical command for running the pipeline is as follows:
-        nextflow run main.nf --input "PathTosamplesheet" --outdir "PathToOutputDir" 
+        nextflow run main.nf --input "PathTosamplesheet" --outdir "PathToOutputDir" -profile conda
 
         Mandatory arguments:
          --input                        Sample sheet containing 'sample', 'R1', 'R2', and 'LongFastQ' columns
