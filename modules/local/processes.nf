@@ -28,7 +28,6 @@ process PLASSEMBLER_RUN {
 	-l $longread \\
         -1 $forwardread \\
 	-2 $reverseread \\
-	-m 1  \\
 	-p $prefix  \\
         -o $prefix \\
 	--keep_fastqs \\
